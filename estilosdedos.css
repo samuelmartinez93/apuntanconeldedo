@@ -1,0 +1,68 @@
+   html {
+      font-family: 'Open Sans', sans-serif;
+   }
+
+   li {
+  list-style-type: none;
+  margin: 10px 10px 0 0;
+}
+
+.cajaprincipal {
+
+  display: flex;
+  flex-direction: column;
+  width: 100vh;
+  min-height: 100vh;
+  max-width: 1140px;
+  background-color: #c2e7da;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.boxID {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  min-width: 50%;
+  box-sizing: content-box;
+  background-color: #6290c3;
+  padding: 25px;
+  border-radius: 30px;
+
+}
+
+.boxID:hover::after {
+  transform: rotate(50%);
+}
+
+
+
+
+body {
+  background-color: lightblue;
+  align-content: center;
+  padding: 0vh;
+
+}
+
+img {
+  width: 150px;
+  border-radius: 100%;
+  margin: 15px;
+  border: 1px solid white;
+  transform: scaleX(1);
+  transition: 2s;
+  transition-property: all;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, p{
+text-align: center;
+}
